@@ -1,14 +1,14 @@
 name: power3d_annotations
 # publish_to: none
 description: "A collection of annotation styles for Power3D plugin."
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/rashbip/power3d_annotations
 
 screenshots:
   - description: "Clean, minimalist 3D hotspots"
-    path: docs/screenshots/hotspot.jpg
+    path: doc/screenshots/hotspot.jpg
   - description: "Interactive HTML-based text callouts"
-    path: docs/screenshots/callout.jpg
+    path: doc/screenshots/callout.jpg
 
 environment:
   sdk: ^3.10.8
@@ -18,7 +18,7 @@ dependencies:
     sdk: flutter
   path: ^1.9.0
   path_provider: ^2.1.5
-  power3d: ^2.2.0
+  power3d: ^2.3.0
 
 dev_dependencies:
   flutter_test:

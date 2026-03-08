@@ -12,7 +12,7 @@ A modular companion package for [Power3D](https://pub.dev/packages/power3d) that
 
 | **Hotspot Style** | **Text Callout Style** |
 | :---: | :---: |
-| <img src="docs/screenshots/hotspot.jpg" width="400"> | <img src="docs/screenshots/callout.jpg" width="400"> |
+| <img src="doc/screenshots/hotspot.jpg" width="400"> | <img src="doc/screenshots/callout.jpg" width="400"> |
 | _Minimalist Markers_ | _Interactive HTML Callouts_ |
 
 ## 📦 Included Styles
@@ -28,8 +28,8 @@ Add both the core engine and the annotations package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  power3d: ^2.2.0
-  power3d_annotations: ^1.0.0
+  power3d: ^2.3.0
+  power3d_annotations: ^1.1.0
 ```
 
 ### 2. Initialize the Controller
