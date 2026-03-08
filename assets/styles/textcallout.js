@@ -13,42 +13,41 @@ window.Power3DTextCalloutStyle = (() => {
             .p3d-callout-el {
                 position: absolute;
                 pointer-events: auto;
-                transform: translate(-50%, -100%);
                 z-index: 2100;
                 font-family: 'Outfit', sans-serif;
                 cursor: pointer;
             }
             .p3d-callout-box {
-                background: rgba(255, 255, 255, 0.9);
-                border-left: 4px solid #38bdf8;
-                border-radius: 4px 12px 12px 4px;
-                padding: 8px 16px;
-                min-width: 120px;
-                max-width: 280px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                background: rgba(255, 255, 255, 0.95);
+                border-left: 5px solid #38bdf8;
+                border-radius: 6px 16px 16px 6px;
+                padding: 12px 20px;
+                min-width: 140px;
+                max-width: 300px;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.18);
                 transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
                 color: #0f172a;
             }
             .p3d-callout-title {
                 margin: 0;
-                font-weight: 600;
-                font-size: 14px;
+                font-weight: 700;
+                font-size: 16px;
             }
             .p3d-callout-details {
                 max-height: 0;
                 overflow: hidden;
                 opacity: 0;
-                font-size: 13px;
+                font-size: 14px;
                 line-height: 1.6;
                 transition: all 0.4s ease;
                 color: #475569;
             }
             .p3d-callout-el.active .p3d-callout-details {
-                max-height: 300px;
+                max-height: 400px;
                 opacity: 1;
-                margin-top: 10px;
-                padding-top: 10px;
-                border-top: 1px solid rgba(0,0,0,0.05);
+                margin-top: 12px;
+                padding-top: 12px;
+                border-top: 1px solid rgba(0,0,0,0.08);
             }
             .p3d-callout-line {
                 width: 2px;

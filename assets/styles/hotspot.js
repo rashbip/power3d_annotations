@@ -13,13 +13,12 @@ window.Power3DHotspotStyle = (() => {
             .p3d-hotspot-el {
                 position: absolute;
                 pointer-events: auto;
-                transform: translate(-50%, -50%);
                 z-index: 2200;
                 cursor: pointer;
             }
             .p3d-hotspot-dot {
-                width: 24px;
-                height: 24px;
+                width: 32px;
+                height: 32px;
                 background: rgba(255, 255, 255, 0.4);
                 border: 2px solid white;
                 border-radius: 50%;
@@ -27,30 +26,30 @@ window.Power3DHotspotStyle = (() => {
                 align-items: center;
                 justify-content: center;
                 transition: all 0.3s ease;
-                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                box-shadow: 0 0 20px rgba(0,0,0,0.3);
             }
             .p3d-hotspot-inner {
-                width: 8px;
-                height: 8px;
+                width: 12px;
+                height: 12px;
                 background: white;
                 border-radius: 50%;
                 transition: all 0.3s ease;
             }
             .p3d-hotspot-el:hover .p3d-hotspot-dot {
-                transform: scale(1.2);
-                background: rgba(255, 255, 255, 0.8);
+                transform: scale(1.15);
+                background: rgba(255, 255, 255, 0.9);
             }
             .p3d-hotspot-card {
                 position: absolute;
-                bottom: 35px;
+                bottom: 45px;
                 left: 50%;
                 transform: translateX(-50%) translateY(10px);
                 background: #fff;
                 color: #1a1a1a;
-                border-radius: 8px;
-                padding: 12px;
-                width: 200px;
-                box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+                border-radius: 12px;
+                padding: 16px;
+                width: 240px;
+                box-shadow: 0 12px 32px rgba(0,0,0,0.25);
                 opacity: 0;
                 pointer-events: none;
                 transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -63,31 +62,31 @@ window.Power3DHotspotStyle = (() => {
             }
             .p3d-hotspot-el.active .p3d-hotspot-inner {
                 background: #38bdf8;
-                transform: scale(1.5);
+                transform: scale(1.4);
             }
             .p3d-hotspot-title {
-                margin: 0 0 6px 0;
+                margin: 0 0 8px 0;
                 font-weight: 700;
-                font-size: 14px;
+                font-size: 16px;
             }
             .p3d-hotspot-body {
                 margin: 0;
-                font-size: 12px;
-                line-height: 1.5;
+                font-size: 14px;
+                line-height: 1.6;
                 color: #475569;
             }
             @keyframes hotspot-pulse {
                 0% { transform: scale(1); opacity: 0.8; }
-                50% { transform: scale(1.4); opacity: 0.3; }
-                100% { transform: scale(1.8); opacity: 0; }
+                50% { transform: scale(1.5); opacity: 0.3; }
+                100% { transform: scale(2.0); opacity: 0; }
             }
             .p3d-hotspot-pulse-ring {
                 position: absolute;
-                width: 24px;
-                height: 24px;
+                width: 32px;
+                height: 32px;
                 border: 2px solid white;
                 border-radius: 50%;
-                animation: hotspot-pulse 2s infinite;
+                animation: hotspot-pulse 2.5s infinite;
                 pointer-events: none;
             }
         `;

@@ -23,6 +23,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/styles/tooltip.js
     - assets/styles/textcallout.js
     - assets/styles/hotspot.js
