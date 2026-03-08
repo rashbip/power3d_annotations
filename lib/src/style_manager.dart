@@ -6,6 +6,11 @@ import 'package:path_provider/path_provider.dart';
 import 'package:power3d/power3d.dart';
 import 'enum.dart';
 
+/// Internal provider responsible for managing annotation style assets.
+///
+/// This class handles the copying of style-specific JavaScript files from
+/// the plugin's assets to the application's local support directory so
+/// they can be loaded by the internal WebView.
 class Power3DAnnotationProvider {
   static const String _libDirName = 'power3d_assets';
 
