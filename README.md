@@ -1,6 +1,19 @@
 # Power3D Annotations
 
+[![pub package](https://img.shields.io/pub/v/power3d_annotations.svg)](https://pub.dev/packages/power3d_annotations)
+[![Language](https://img.shields.io/badge/language-dart-blue.svg)](https://dart.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A modular companion package for [Power3D](https://pub.dev/packages/power3d) that provides high-quality, interactive annotation styles.
+
+[**pub.dev**](https://pub.dev/packages/power3d_annotations) | [**Repository**](https://github.com/rashbip/power3d_annotations)
+
+## 📸 Showcase
+
+| **Hotspot Style** | **Text Callout Style** |
+| :---: | :---: |
+| <img src="docs/screenshots/hotspot.jpg" width="400"> | <img src="docs/screenshots/callout.jpg" width="400"> |
+| _Minimalist Markers_ | _Interactive HTML Callouts_ |
 
 ## 📦 Included Styles
 

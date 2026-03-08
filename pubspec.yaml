@@ -4,6 +4,12 @@ description: "A collection of annotation styles for Power3D plugin."
 version: 1.0.0
 homepage: https://github.com/rashbip/power3d_annotations
 
+screenshots:
+  - description: "Clean, minimalist 3D hotspots"
+    path: docs/screenshots/hotspot.jpg
+  - description: "Interactive HTML-based text callouts"
+    path: docs/screenshots/callout.jpg
+
 environment:
   sdk: ^3.10.8
 

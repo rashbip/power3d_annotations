@@ -14,8 +14,14 @@ import 'enum.dart';
 class Power3DAnnotationProvider {
   static const String _libDirName = 'power3d_assets';
 
-  /// Ensures the specified [style] is copied to the power3d assets directory.
-  /// Returns the relative path for JavaScript to load (e.g. 'js/annotation/styles/hotspot.js').
+  /// Prepares the specified [style] by copying its JavaScript asset to the 
+  /// application's local support directory if it's not already managed by the core.
+  ///
+  /// Returns the relative path used by the Babylon.js engine to load the script
+  /// (e.g., 'js/annotation/styles/hotspot.js').
+  ///
+  /// If [style] is `Power3DAnnotationStyle.tooltip`, it returns the default
+  /// core path without any file operations.
   static Future<String> useStyle(Power3DAnnotationStyle style) async {
     // If it's the built-in tooltip, it's already in the core zip/assets
     if (style == Power3DAnnotationStyle.tooltip) {
