@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "power3d_annotations",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "dependencies": [
         "flutter",
         "path",
@@ -19,7 +19,7 @@
     },
     {
       "name": "flutter_lints",
-      "version": "3.0.2",
+      "version": "6.0.0",
       "dependencies": [
         "lints"
       ]
@@ -44,7 +44,7 @@
     },
     {
       "name": "power3d",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "dependencies": [
         "archive",
         "cupertino_icons",
@@ -86,7 +86,7 @@
     },
     {
       "name": "lints",
-      "version": "3.0.0",
+      "version": "6.1.0",
       "dependencies": []
     },
     {
@@ -450,7 +450,7 @@
     },
     {
       "name": "native_toolchain_c",
-      "version": "0.17.4",
+      "version": "0.17.5",
       "dependencies": [
         "code_assets",
         "glob",
@@ -467,7 +467,7 @@
     },
     {
       "name": "hooks",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "dependencies": [
         "collection",
         "crypto",

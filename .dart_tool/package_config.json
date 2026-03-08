@@ -129,9 +129,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-6.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.8"
     },
     {
       "name": "flutter_test",
@@ -153,9 +153,9 @@
     },
     {
       "name": "hooks",
-      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/hooks-1.0.1",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/hooks-1.0.2",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.10"
     },
     {
       "name": "leak_tracker",
@@ -177,9 +177,9 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/lints-6.1.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.8"
     },
     {
       "name": "logging",
@@ -207,9 +207,9 @@
     },
     {
       "name": "native_toolchain_c",
-      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/native_toolchain_c-0.17.4",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/native_toolchain_c-0.17.5",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.10"
     },
     {
       "name": "objective_c",
@@ -273,7 +273,7 @@
     },
     {
       "name": "power3d",
-      "rootUri": "../../power3d",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/power3d-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.10"
     },
