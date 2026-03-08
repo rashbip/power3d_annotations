@@ -106,7 +106,7 @@ window.Power3DHotspotStyle = (() => {
             <div class="p3d-hotspot-card">
                 <p class="p3d-hotspot-title">${ann.ui.title}</p>
                 <div class="p3d-hotspot-body">${ann.ui.description || ''}</div>
-                ${ann.ui.more ? `<a href="${ann.ui.more}" target="_blank" style="color:#38bdf8;text-decoration:none;font-size:11px;font-weight:600;display:block;margin-top:8px;">Details</a>` : ''}
+                ${ann.ui.more ? `<button onclick="window.onAnnotationMoreClicked('${ann.id}')" style="background:#38bdf8;border:none;border-radius:6px;color:#fff;cursor:pointer;font-size:11px;font-weight:600;display:block;margin-top:8px;padding:4px 8px;width:100%;">Details</button>` : ''}
             </div>
         `;
 
