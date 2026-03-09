@@ -69,17 +69,29 @@ window.Power3DTextCalloutStyle = (() => {
                 <p class="p3d-callout-title">${ann.ui.title}</p>
                 <div class="p3d-callout-details">
                     ${ann.ui.description || ''}
-                    ${ann.ui.more ? `<br><button onclick="window.onAnnotationMoreClicked('${ann.id}')" style="background:#38bdf8;border:none;border-radius:6px;color:#fff;cursor:pointer;font-weight:600;display:block;margin-top:8px;padding:6px 12px;width:100%;">Open Info →</button>` : ''}
+                    ${ann.ui.more ? `<br><button class="p3d-open-info-btn" style="background:#38bdf8;border:none;border-radius:6px;color:#fff;cursor:pointer;font-weight:600;display:block;margin-top:8px;padding:6px 12px;width:100%;">Open Info →</button>` : ''}
                 </div>
             </div>
             <div class="p3d-callout-line"></div>
         `;
 
+        const btn = el.querySelector('.p3d-open-info-btn');
+        if (btn) {
+            btn.onclick = (e) => {
+                e.stopPropagation();
+                if (window.onAnnotationMoreClicked) {
+                    window.onAnnotationMoreClicked(ann.id);
+                }
+            };
+        }
+
         el.onclick = (e) => {
             e.stopPropagation();
-            document.querySelectorAll('.p3d-callout-el, .p3d-hotspot-el').forEach(o => {
+            
+            document.querySelectorAll('.p3d-callout-el, .p3d-hotspot-el, .p3d-tooltip-el').forEach(o => {
                 if(o !== el) o.classList.remove('active');
             });
+            
             const isActive = el.classList.toggle('active');
             if (isActive && ann.camera && window.Power3DAnnotationEngine) {
                 window.Power3DAnnotationEngine.flyTo(ann.camera);
