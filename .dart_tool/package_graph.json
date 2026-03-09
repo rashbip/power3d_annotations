@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "power3d_annotations",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "dependencies": [
         "flutter",
         "path",
@@ -44,7 +44,7 @@
     },
     {
       "name": "power3d",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "dependencies": [
         "archive",
         "cupertino_icons",
@@ -169,14 +169,6 @@
       ]
     },
     {
-      "name": "archive",
-      "version": "3.6.1",
-      "dependencies": [
-        "crypto",
-        "path"
-      ]
-    },
-    {
       "name": "flutter_inappwebview",
       "version": "6.1.5",
       "dependencies": [
@@ -193,6 +185,14 @@
       "name": "cupertino_icons",
       "version": "1.0.8",
       "dependencies": []
+    },
+    {
+      "name": "archive",
+      "version": "4.0.9",
+      "dependencies": [
+        "path",
+        "posix"
+      ]
     },
     {
       "name": "path_provider_windows",
@@ -317,13 +317,6 @@
       ]
     },
     {
-      "name": "crypto",
-      "version": "3.0.7",
-      "dependencies": [
-        "typed_data"
-      ]
-    },
-    {
       "name": "flutter_inappwebview_windows",
       "version": "0.6.0",
       "dependencies": [
@@ -375,6 +368,15 @@
       ]
     },
     {
+      "name": "posix",
+      "version": "6.5.0",
+      "dependencies": [
+        "ffi",
+        "meta",
+        "path"
+      ]
+    },
+    {
       "name": "ffi",
       "version": "2.2.0",
       "dependencies": []
@@ -416,13 +418,6 @@
       "name": "vm_service",
       "version": "15.0.2",
       "dependencies": []
-    },
-    {
-      "name": "typed_data",
-      "version": "1.4.0",
-      "dependencies": [
-        "collection"
-      ]
     },
     {
       "name": "web",
@@ -506,11 +501,25 @@
       ]
     },
     {
+      "name": "crypto",
+      "version": "3.0.7",
+      "dependencies": [
+        "typed_data"
+      ]
+    },
+    {
       "name": "file",
       "version": "7.0.1",
       "dependencies": [
         "meta",
         "path"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
       ]
     }
   ],

@@ -18,7 +18,8 @@ dependencies:
     sdk: flutter
   path: ^1.9.0
   path_provider: ^2.1.5
-  power3d: ^2.3.0
+  power3d:
+    path: ../power3d
 
 dev_dependencies:
   flutter_test:

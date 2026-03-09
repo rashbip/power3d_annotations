@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "archive",
-      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/archive-3.6.1",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/archive-4.0.9",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -272,8 +272,14 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "posix",
+      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/posix-6.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "power3d",
-      "rootUri": "file:///C:/Users/biplo/AppData/Local/Pub/Cache/hosted/pub.dev/power3d-2.2.0",
+      "rootUri": "../../power3d",
       "packageUri": "lib/",
       "languageVersion": "3.10"
     },
