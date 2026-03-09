@@ -1,1 +1,1 @@
-{"version":2,"entries":[{"package":"power3d_annotations","rootUri":"../","packageUri":"lib/"}]}
+{"version":2,"entries":[{"package":"power3d","rootUri":"../../power3d/","packageUri":"lib/"},{"package":"power3d_annotations","rootUri":"../","packageUri":"lib/"}]}

@@ -68,19 +68,20 @@ class Power3DAnnotationProvider {
 
 /// Extension to provide easy style switching with the enum
 extension AnnotationControllerExt on Power3DController {
-  /// Initializes the controller for use with the [power3d_annotations] plugin.
-  /// Call this once after creating the controller to support Enums in the widget.
-  void initForAnnotations() {
-    onResolveStyle = (s) => setAnnotationStyleEnum(s as Power3DAnnotationStyle);
+  /// App-wide registration for annotation styles.
+  /// Call this once in main() to enable Enum support for ALL Power3D sessions.
+  static void register() {
+    Power3DController.globalStyleResolver = (controller, style) {
+      if (style is Power3DAnnotationStyle) {
+        return controller.setAnnotationStyleEnum(style);
+      }
+      return Future.value();
+    };
   }
 
   /// Sets the annotation style using the [Power3DAnnotationStyle] enum.
   /// This automatically provisions the style file to the viewer's directory.
   Future<void> setAnnotationStyleEnum(Power3DAnnotationStyle style) async {
-    // If hook is not set, set it now to enable automatic widget support
-    onResolveStyle ??= (s) =>
-        setAnnotationStyleEnum(s as Power3DAnnotationStyle);
-
     final path = await Power3DAnnotationProvider.useStyle(style);
     setAnnotationStyle(path);
   }
