@@ -1,7 +1,7 @@
 name: power3d_annotations
 # publish_to: none
 description: "A collection of annotation styles for Power3D plugin."
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/rashbip/power3d_annotations
 
 screenshots:
@@ -18,8 +18,7 @@ dependencies:
     sdk: flutter
   path: ^1.9.0
   path_provider: ^2.1.5
-  power3d:
-    path: ../power3d
+  power3d: ^2.3.1
 
 dev_dependencies:
   flutter_test:

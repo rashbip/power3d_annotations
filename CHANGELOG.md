@@ -1,3 +1,8 @@
+# 1.2.0
+
+* Updated `power3d` dependency to `2.3.1`.
+* Fixed Some issues.
+
 # 1.1.0
 
 * Initial release of `power3d_annotations`.
